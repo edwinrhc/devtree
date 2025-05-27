@@ -12,6 +12,10 @@ app.get('/ecomerce', (req,res) => {
     res.send('Este es el Ecommerce')
 })
 
+app.get('/blog', (req,res) => {
+    res.send('Este es el blog')
+})
+
 app.listen(4000, () => {
     console.log('Server started on port 4000');
 })
