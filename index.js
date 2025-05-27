@@ -1,5 +1,5 @@
 
-const express = require('express');
+import  express from 'express' // ESM EcmasSCRIPT MODULE
 
 const app = express();
 
@@ -8,14 +8,12 @@ app.get('/',(req,res) => {
     res.send('Hola mundo en express')
 })
 
-app.get('/ecomerce', (req,res) => {
+app.get('/ecommerce', (req,res) => {
     res.send('Este es el Ecommerce')
 })
 
-app.get('/blog', (req,res) => {
-    res.send('Este es el blog')
-})
+const port = 4000
 
-app.listen(4000, () => {
+app.listen(port, () => {
     console.log('Server started on port 4000');
 })
