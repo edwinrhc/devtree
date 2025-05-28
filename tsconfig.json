@@ -9,7 +9,6 @@
     "moduleResolution": "NodeNext",
     "module": "NodeNext",
     "strict": false,
-    // Para ejecutr el modo no tan estricto
     "sourceMap": true,
     "esModuleInterop": true,
     "declaration": true
