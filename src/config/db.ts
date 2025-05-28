@@ -1,13 +1,15 @@
 import mongoose from 'mongoose';
+import colors from 'colors';
+
+console.log(process.env.MONGODB_URI);
 
 export const connectDB = async () => {
     try {
-        const url = 'AQUI LA CONEXION'
-        const {connection} = await mongoose.connect(url)
-        const url2 = `${connection.host}: ${connection.port}`
-        console.log(`MongoDB Conectado en ${url2}`)
+        const {connection } = await mongoose.connect(process.env.MONGO_URI);
+        const url = `${connection.host}:${connection.port}`;
+        console.log(colors.cyan.bold(`MongoDB Conectado ${url}`));
     } catch (error) {
-        console.log(error.message)
+        console.log(colors.bgRed.black.bold(error.message));
         process.exit(1) // Termina el proceso de forma asincrona con un codigo de estado de salida
     }
 }
