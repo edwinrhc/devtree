@@ -1,0 +1,20 @@
+### Obtener usuarios
+POST http://localhost:4000/auth/register
+Content-Type: application/json
+
+{
+  "handle": "edwin rico",
+  "name": "edwin",
+  "email": "correo2@gmail.com",
+  "password": "12345678"
+
+}
+
+### Obtener Login
+POST http://localhost:4000/auth/login
+Content-Type: application/json
+
+{
+  "email": "correo1@correo.com",
+  "password": "123"
+}

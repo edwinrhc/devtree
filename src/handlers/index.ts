@@ -39,5 +39,11 @@ export const createAccount = async (req: Request, res: Response) => {
     res.status(201).send('Registro Creado correctamente');
 }
 
-
+export const login = async(req:Request, res: Response)=> {
+    //TODO: Manejar errores
+    let errors = validationResult(req);
+    if (!errors.isEmpty()) {
+        return res.status(400).json({errors: errors.array()});
+    }
+}
 
