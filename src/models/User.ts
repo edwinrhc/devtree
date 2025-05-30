@@ -1,13 +1,20 @@
-
 import mongoose, {Schema} from "mongoose";
 
 interface IUser {
-  name:string;
-  email:string;
-  password:string;
+    handle:string;
+    name: string;
+    email: string;
+    password: string;
 }
 
 const userSchema = new Schema({
+    "handle": {
+        type: String,
+        required: true,
+        trim: true,
+        lowercase: true,
+        unique: true,
+    },
 
     "name": {
         type: String,
@@ -18,6 +25,7 @@ const userSchema = new Schema({
         type: String,
         required: true,
         trim: true,
+        lowercase: true,
         unique: true,
     },
     "password": {
@@ -25,7 +33,6 @@ const userSchema = new Schema({
         required: true,
         trim: true,
     }
-
 
 
 })
