@@ -14,7 +14,6 @@ export const createAccount = async (req: Request, res: Response) => {
     }
 
     const {email,password} = req.body;
-
     const userExtis = await User.findOne({email})
     if (userExtis) {
         const error = new Error('El email del usuario ya esta registrado ');
@@ -45,5 +44,13 @@ export const login = async(req:Request, res: Response)=> {
     if (!errors.isEmpty()) {
         return res.status(400).json({errors: errors.array()});
     }
+
+    const {email,password} = req.body;
+    const user = await User.findOne({email})
+    if (!user) {
+        const error = new Error('El usuario no existe');
+        return res.status(404).json({error: error.message});
+    }
+    // Comprobar el password
 }
 
