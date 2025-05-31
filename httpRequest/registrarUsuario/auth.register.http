@@ -3,9 +3,9 @@ POST http://localhost:4000/auth/register
 Content-Type: application/json
 
 {
-  "handle": "edwin",
+  "handle": "erhc",
   "name": "edwin",
-  "email": "correo1@gmail.com",
+  "email": "correo3@gmail.com",
   "password": "12345678"
 
 }

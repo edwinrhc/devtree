@@ -7,12 +7,6 @@ import {checkPassword, hashPassword} from "../utils/auth";
 
 export const createAccount = async (req: Request, res: Response) => {
 
-    //TODO: Manejar errores
-    let errors = validationResult(req);
-    if (!errors.isEmpty()) {
-        return res.status(400).json({errors: errors.array()});
-    }
-
     const {email,password} = req.body;
     const userExtis = await User.findOne({email})
     if (userExtis) {
@@ -39,11 +33,6 @@ export const createAccount = async (req: Request, res: Response) => {
 }
 
 export const login = async(req:Request, res: Response)=> {
-    //TODO: Manejar errores
-    let errors = validationResult(req);
-    if (!errors.isEmpty()) {
-        return res.status(400).json({errors: errors.array()});
-    }
 
     const {email,password} = req.body;
     const user = await User.findOne({email})
