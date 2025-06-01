@@ -5,9 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd90ff80-1b53-4328-b085-57da2bc641a6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/frontend/public/bg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/social/icon_facebook.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/social/icon_github.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/social/icon_instagram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/social/icon_linkedin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/social/icon_tiktok.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/social/icon_twitch.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/social/icon_x.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/social/icon_youtube.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ErrorMessage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/layouts/AuthLayout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/types/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/router.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/router.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/views/LoginView.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/views/LoginView.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/views/RegisterView.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/views/RegisterView.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +33,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/frontend/src/views/RegisterView.tsx" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -26,24 +46,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "HTTP Request.auth.register | Iniciando sesión  (Login).executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "D:\\0.Cursos\\Proyecto\\IDE- Web Storm\\devtree\\frontend\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;HTTP Request.auth.register | Iniciando sesión  (Login).executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/0.Cursos/Proyecto/IDE- Web Storm/devtree/frontend/public&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\0.Cursos\\Proyecto\\IDE- Web Storm\\devtree\\frontend\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\0.Cursos\Proyecto\IDE- Web Storm\devtree\frontend\public" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="auth.register | Iniciando sesión  (Login)" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/backend/httpRequest/registrarUsuario/auth.register.http" executionIdentifier="Iniciando sesión  (Login)" index="2" runType="Run single request">
       <method v="2" />
@@ -69,7 +95,8 @@
       <option name="presentableId" value="Default" />
       <updated>1748730941816</updated>
       <workItem from="1748730944418" duration="172000" />
-      <workItem from="1748731285109" duration="3704000" />
+      <workItem from="1748731285109" duration="9875000" />
+      <workItem from="1748754692898" duration="271000" />
     </task>
     <servers />
   </component>
