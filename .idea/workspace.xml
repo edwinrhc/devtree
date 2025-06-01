@@ -5,26 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd90ff80-1b53-4328-b085-57da2bc641a6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/public/bg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/social/icon_facebook.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/social/icon_github.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/social/icon_instagram.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/social/icon_linkedin.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/social/icon_tiktok.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/social/icon_twitch.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/social/icon_x.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/social/icon_youtube.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/ErrorMessage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/layouts/AuthLayout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/types/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/router.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/router.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/views/LoginView.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/views/LoginView.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ErrorMessage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/ErrorMessage.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/views/RegisterView.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/views/RegisterView.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +81,7 @@
       <updated>1748730941816</updated>
       <workItem from="1748730944418" duration="172000" />
       <workItem from="1748731285109" duration="9875000" />
-      <workItem from="1748754692898" duration="271000" />
+      <workItem from="1748754692898" duration="784000" />
     </task>
     <servers />
   </component>
