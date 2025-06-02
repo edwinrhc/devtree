@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd90ff80-1b53-4328-b085-57da2bc641a6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/src/utils/jwt.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/config/cors.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/config/cors.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/handlers/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/handlers/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/views/LoginView.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/views/LoginView.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +38,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "HTTP Request.auth.register | #2.executor": "Run",
     "HTTP Request.auth.register | Crear Usuario.executor": "Run",
     "HTTP Request.auth.register | Iniciando sesión  (Login) (1).executor": "Run",
     "HTTP Request.auth.register | Iniciando sesión  (Login).executor": "Run",
@@ -66,21 +64,13 @@
       <recent name="D:\0.Cursos\Proyecto\IDE- Web Storm\devtree\frontend\public" />
     </key>
   </component>
-  <component name="RunManager" selected="HTTP Request.auth.register | Iniciando sesión  (Login) (1)">
-    <configuration name="auth.register | Crear Usuario" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/backend/httpClient/registrarUsuario/auth.register.http" executionIdentifier="Crear Usuario" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="auth.register | Iniciando sesión  (Login) (1)" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/backend/httpClient/registrarUsuario/auth.register.http" executionIdentifier="Iniciando sesión  (Login)" index="2" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="auth.register | Iniciando sesión  (Login)" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/backend/httpRequest/registrarUsuario/auth.register.http" executionIdentifier="Iniciando sesión  (Login)" index="2" runType="Run single request">
+  <component name="RunManager">
+    <configuration name="auth.register | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/backend/httpClient/registrarUsuario/auth.register.http" executionIdentifier="#2" index="2" runType="Run single request">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.auth.register | Iniciando sesión  (Login) (1)" />
-        <item itemvalue="HTTP Request.auth.register | Crear Usuario" />
-        <item itemvalue="HTTP Request.auth.register | Iniciando sesión  (Login)" />
+        <item itemvalue="HTTP Request.auth.register | #2" />
       </list>
     </recent_temporary>
   </component>
@@ -105,7 +95,7 @@
       <workItem from="1748820266067" duration="43000" />
       <workItem from="1748820332436" duration="1158000" />
       <workItem from="1748828117307" duration="4116000" />
-      <workItem from="1748837993090" duration="1834000" />
+      <workItem from="1748837993090" duration="3453000" />
     </task>
     <servers />
   </component>
