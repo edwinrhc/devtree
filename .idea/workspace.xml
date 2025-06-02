@@ -5,14 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd90ff80-1b53-4328-b085-57da2bc641a6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/backend/src/utils/jwt.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/types/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/types/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/views/LoginView.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/views/LoginView.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/config/cors.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/config/cors.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/handlers/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/handlers/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -29,34 +39,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;HTTP Request.auth.register | Crear Usuario.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.auth.register | Iniciando sesión  (Login).executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/0.Cursos/Proyecto/IDE- Web Storm/devtree&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;D:\\0.Cursos\\Proyecto\\IDE- Web Storm\\devtree\\backend\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "HTTP Request.auth.register | Crear Usuario.executor": "Run",
+    "HTTP Request.auth.register | Iniciando sesión  (Login) (1).executor": "Run",
+    "HTTP Request.auth.register | Iniciando sesión  (Login).executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/0.Cursos/Proyecto/IDE- Web Storm/devtree",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "terminal",
+    "ts.external.directory.path": "D:\\0.Cursos\\Proyecto\\IDE- Web Storm\\devtree\\backend\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\0.Cursos\Proyecto\IDE- Web Storm\devtree" />
       <recent name="D:\0.Cursos\Proyecto\IDE- Web Storm\devtree\frontend\public" />
     </key>
   </component>
-  <component name="RunManager" selected="HTTP Request.auth.register | Crear Usuario">
+  <component name="RunManager" selected="HTTP Request.auth.register | Iniciando sesión  (Login) (1)">
     <configuration name="auth.register | Crear Usuario" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/backend/httpClient/registrarUsuario/auth.register.http" executionIdentifier="Crear Usuario" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="auth.register | Iniciando sesión  (Login) (1)" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/backend/httpClient/registrarUsuario/auth.register.http" executionIdentifier="Iniciando sesión  (Login)" index="2" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="auth.register | Iniciando sesión  (Login)" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/backend/httpRequest/registrarUsuario/auth.register.http" executionIdentifier="Iniciando sesión  (Login)" index="2" runType="Run single request">
@@ -64,6 +78,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.auth.register | Iniciando sesión  (Login) (1)" />
         <item itemvalue="HTTP Request.auth.register | Crear Usuario" />
         <item itemvalue="HTTP Request.auth.register | Iniciando sesión  (Login)" />
       </list>
@@ -90,7 +105,7 @@
       <workItem from="1748820266067" duration="43000" />
       <workItem from="1748820332436" duration="1158000" />
       <workItem from="1748828117307" duration="4116000" />
-      <workItem from="1748837993090" duration="622000" />
+      <workItem from="1748837993090" duration="1834000" />
     </task>
     <servers />
   </component>
