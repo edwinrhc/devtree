@@ -1,0 +1,11 @@
+{
+  "errors": [
+    {
+      "type": "field",
+      "value": "123456",
+      "msg": "Password debe tener minimo 8 digitos",
+      "path": "password",
+      "location": "body"
+    }
+  ]
+}
