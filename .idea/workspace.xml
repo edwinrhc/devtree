@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd90ff80-1b53-4328-b085-57da2bc641a6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/views/ProfileView.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/views/ProfileView.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/httpClient/registrarUsuario/auth.register.http" beforeDir="false" afterPath="$PROJECT_DIR$/backend/httpClient/registrarUsuario/auth.register.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/handlers/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/handlers/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/router.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +29,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///JetClient Request Console" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/frontend/src/views/RegisterView.tsx" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 3
@@ -35,41 +45,63 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;HTTP Request.auth.register | #2.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.auth.register | Crear Usuario.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.auth.register | Iniciando sesión  (Login) (1).executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.auth.register | Iniciando sesión  (Login).executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/0.Cursos/Proyecto/IDE- Web Storm/devtree&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;D:\\0.Cursos\\Proyecto\\IDE- Web Storm\\devtree\\backend\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "HTTP Request.All in auth.register.executor": "Run",
+    "HTTP Request.auth.register | #2.executor": "Run",
+    "HTTP Request.auth.register | Crear Usuario.executor": "Run",
+    "HTTP Request.auth.register | Iniciando sesión  (Login) (1).executor": "Run",
+    "HTTP Request.auth.register | Iniciando sesión  (Login).executor": "Run",
+    "HTTP Request.auth.register | 🔑 Get User.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/0.Cursos/Proyecto/IDE- Web Storm/devtree",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.dev:api.executor": "Run",
+    "settings.editor.selected.configurable": "terminal",
+    "ts.external.directory.path": "E:\\1.Desarrollo\\Aplicaciones\\IDE-Web Storm\\devtree\\backend\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\0.Cursos\Proyecto\IDE- Web Storm\devtree" />
       <recent name="D:\0.Cursos\Proyecto\IDE- Web Storm\devtree\frontend\public" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="HTTP Request.auth.register | 🔑 Get User">
+    <configuration name="All in auth.register" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/backend/httpClient/registrarUsuario/auth.register.http">
+      <method v="2" />
+    </configuration>
+    <configuration name="auth.register | 🔑 Get User" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/backend/httpClient/registrarUsuario/auth.register.http" executionIdentifier="🔑 Get User" index="3" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <configuration name="auth.register | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/backend/httpClient/registrarUsuario/auth.register.http" executionIdentifier="#2" index="2" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="dev:api" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/backend/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev:api" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.auth.register | 🔑 Get User" />
         <item itemvalue="HTTP Request.auth.register | #2" />
+        <item itemvalue="npm.dev:api" />
+        <item itemvalue="HTTP Request.All in auth.register" />
       </list>
     </recent_temporary>
   </component>

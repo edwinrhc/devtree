@@ -1,0 +1,18 @@
+{
+  "errors": [
+    {
+      "type": "field",
+      "value": "",
+      "msg": "El correo es requerido",
+      "path": "email",
+      "location": "body"
+    },
+    {
+      "type": "field",
+      "value": "",
+      "msg": "Password debe tener minimo 8 digitos",
+      "path": "password",
+      "location": "body"
+    }
+  ]
+}

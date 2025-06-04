@@ -1,0 +1,11 @@
+{
+  "errors": [
+    {
+      "type": "field",
+      "value": "",
+      "msg": "El correo es requerido",
+      "path": "email",
+      "location": "body"
+    }
+  ]
+}

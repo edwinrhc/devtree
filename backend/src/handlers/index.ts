@@ -54,3 +54,8 @@ export const login = async(req:Request, res: Response)=> {
 
 }
 
+export const getUser = async (req: Request, res: Response) => {
+    console.log(req.headers.authorization); // debería mostrar: Bearer eyJhbGci…
+    // resto de tu lógica...
+}
+
