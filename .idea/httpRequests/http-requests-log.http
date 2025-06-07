@@ -1,5 +1,54 @@
 GET http://localhost:4000/user
 Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2QwMzRiOGM4ZDZiNGM3NWQxNGI4MyIsImlhdCI6MTc0OTMxODg0MCwiZXhwIjoxNzQ5MzE5NDQwfQ.h_eTp3pBMbr9K8W0VGnx2I6BKO0KzxxxhZblf7rNPpA
+User-Agent: IntelliJ HTTP Client/WebStorm 2025.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-06-07T130006.200.json
+
+###
+
+GET http://localhost:4000/user
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2QwMzRiOGM4ZDZiNGM3NWQxNGI4MyIsImlhdCI6MTc0OTMxODg0MCwiZXhwIjoxNzQ5MzE5NDQwfQ.h_eTp3pBMbr9K8W0VGnx2I6BKO0KzxxxhZblf7rNPpA
+User-Agent: IntelliJ HTTP Client/WebStorm 2025.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-06-07T125949.200.json
+
+###
+
+POST http://localhost:4000/auth/login
+Content-Type: application/json
+Content-Length: 62
+User-Agent: IntelliJ HTTP Client/WebStorm 2025.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "correo1@correo.com",
+  "password": "123456789"
+}
+
+<> 2025-06-07T125400.200.html
+
+###
+
+GET http://localhost:4000/user
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2QwMzRiOGM4ZDZiNGM3NWQxNGI4MyIsImlhdCI6MTc0OTMxNzA0MSwiZXhwIjoxNzQ5MzE3NjQxfQ.CsFSRTZi27WDE8m_PLEnqFVkZwNkVC2kU5tSo1TwAi0
+User-Agent: IntelliJ HTTP Client/WebStorm 2025.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-06-07T125352.500.json
+
+###
+
+GET http://localhost:4000/user
+Content-Type: application/json
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2QwMzRiOGM4ZDZiNGM3NWQxNGI4MyIsImlhdCI6MTc0OTMxNzA0MSwiZXhwIjoxNzQ5MzE3NjQxfQ.CsFSRTZi27WDE8m_PLEnqFVkZwNkVC2kU5tSo1TwAi0
 User-Agent: IntelliJ HTTP Client/WebStorm 2025.1.1
 Accept-Encoding: br, deflate, gzip, x-gzip
@@ -649,55 +698,6 @@ Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
 
 <> 2025-06-03T235509.500.json
-
-###
-
-GET http://localhost:4000/user
-Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2QwMzRiOGM4ZDZiNGM3NWQxNGI4MyIsImlhdCI6MTc0OTAxMTc4NSwiZXhwIjoxNzQ5MDEyMzg1fQ.XJ5lBPgwvy2tcKWGeorOhw27cowQwsKcd-yHroIZstQ
-User-Agent: IntelliJ HTTP Client/WebStorm 2025.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-06-03T235505.500.json
-
-###
-
-GET http://localhost:4000/user
-Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2QwMzRiOGM4ZDZiNGM3NWQxNGI4MyIsImlhdCI6MTc0OTAxMTc4NSwiZXhwIjoxNzQ5MDEyMzg1fQ.XJ5lBPgwvy2tcKWGeorOhw27cowQwsKcd-yHroIZstQ
-User-Agent: IntelliJ HTTP Client/WebStorm 2025.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-06-03T235501.500.json
-
-###
-
-GET http://localhost:4000/user
-Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2QwMzRiOGM4ZDZiNGM3NWQxNGI4MyIsImlhdCI6MTc0OTAxMTc4NSwiZXhwIjoxNzQ5MDEyMzg1fQ.XJ5lBPgwvy2tcKWGeorOhw27cowQwsKcd-yHroIZstQ
-User-Agent: IntelliJ HTTP Client/WebStorm 2025.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-06-03T235455.500.json
-
-###
-
-POST http://localhost:4000/auth/login
-Content-Type: application/json
-Content-Length: 62
-User-Agent: IntelliJ HTTP Client/WebStorm 2025.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "email": "correo1@correo.com",
-  "password": "123456789"
-}
-
-<> 2025-06-03T235449.200.html
 
 ###
 
