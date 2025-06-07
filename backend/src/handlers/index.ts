@@ -73,8 +73,14 @@ export const getUser = async (req: Request, res: Response) => {
     try{
         const result = jwt.verify(token, process.env.JWT_SECRET_KEY);
         if(typeof  result === 'object' && result.id){
-           const user = await User.findById(result.id)
-            console.log(user)
+           // const user = await User.findById(result.id).select('name handle email') // Trae los campos dentro de select
+           const user = await User.findById(result.id).select('-password') // Trae todos los campos menos el password en select -password
+
+            if(!user){
+                const error = new Error('El usuario no existe')
+                return res.status(404).json({error: error.message});
+            }
+            res.json(user)
         }
     }catch(error){
         res.status(500).json({error: 'Token no Válido'});
