@@ -12,7 +12,7 @@ export async function getUser(){
             }
         })
 
-        console.log("data.headers.Authorization: ",data.headers.Authorization)
+        console.log("data es: ",data)
     }catch(error){
         if(isAxiosError(error) && error.response){
             throw new Error(error.response.data.error)
