@@ -22,5 +22,5 @@ Content-Type: application/json
 ### 🔑 Get User iniciando con el token
 GET http://localhost:4000/user
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2QwMzRiOGM4ZDZiNGM3NWQxNGI4MyIsImlhdCI6MTc0OTMxODg0MCwiZXhwIjoxNzQ5MzE5NDQwfQ.h_eTp3pBMbr9K8W0VGnx2I6BKO0KzxxxhZblf7rNPpA
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2QwMzRiOGM4ZDZiNGM3NWQxNGI4MyIsImlhdCI6MTc0OTM3MzAyMCwiZXhwIjoxNzQ5MzczNjIwfQ.XLhS2zEohbpejz7vzdN_gyJklhSxHZXrfR4_Gx-L7s0
 
