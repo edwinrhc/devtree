@@ -1,16 +1,10 @@
 import {isAxiosError} from "axios";
 import api from "../config/axios.ts";
-// import {toast} from "sonner";
 
 export async function getUser(){
-    const token = localStorage.getItem("AUTH_TOKEN");
-    // console.log("el token es: ",token);
+
     try {
-        const { data } = await api('/user', {
-            headers: {
-                Authorization: `Bearer ${token}`,
-            }
-        })
+        const { data } = await api('/user')
         return data;
     }catch(error){
         if(isAxiosError(error) && error.response){
