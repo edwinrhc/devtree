@@ -7,7 +7,6 @@
     <list default="true" id="bd90ff80-1b53-4328-b085-57da2bc641a6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/api/DevTreeAPI.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/api/DevTreeAPI.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/layouts/AppLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/layouts/AppLayout.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +133,7 @@
       <workItem from="1749008835617" duration="4345000" />
       <workItem from="1749316363178" duration="10102000" />
       <workItem from="1749422082369" duration="4167000" />
-      <workItem from="1749444509900" duration="283000" />
+      <workItem from="1749444509900" duration="527000" />
     </task>
     <servers />
   </component>
