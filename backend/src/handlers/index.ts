@@ -60,4 +60,12 @@ export const getUser = async (req: Request, res: Response) => {
     res.json(req.user)
 }
 
+export const updateProfile = async (req: Request, res: Response) => {
+    try{
+        console.log(req.body)
+    }catch(e){
+        const error = new Error('Hubo un error');
+        return res.status(500).json({error: error.message});
+    }
+}
 

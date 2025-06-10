@@ -1,6 +1,6 @@
 import {Router} from 'express';
 import {body} from 'express-validator';
-import {createAccount, getUser, login} from "./handlers";
+import {createAccount, getUser, login, updateProfile} from "./handlers";
 import {handleInputErrors} from "./middleware/validation";
 import {authenticate} from "./middleware/auth";
 // Routing
@@ -27,6 +27,12 @@ router.get('/user',
     authenticate,
     getUser)
 
+router.patch('/user',
+    body('handle').notEmpty().withMessage('Handle es requerido'),
+    body('description').notEmpty().withMessage('Es requerido la descripción'),
+    handleInputErrors,
+    authenticate,
+    updateProfile)
 
 export default router;
 
